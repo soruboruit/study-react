@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css"
 
-export default function headline() {
+export default function Headline() {
     return (
         <div className={styles.description}>
           <p>
