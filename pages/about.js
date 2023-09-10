@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Headline></Headline>
-        <div className={styles.center}>About Page </div>
+        <div className={styles.center}>say oorcholson about </div>
       <Links></Links>
       </main>
       <Footer></Footer>
