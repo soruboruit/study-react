@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Headline title="Index About"/>
+        <Headline title="About Page"/>
         <div className={styles.center}>say oorcholson about </div>
       <Links></Links>
       </main>
