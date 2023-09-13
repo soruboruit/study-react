@@ -6,9 +6,9 @@ export  function Headline(props) {
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
-            <code className={styles.code}>pages/about.js</code>
+            {props.code}
           </p>
-          
+          <button onClick={props.onClick}>ボタン</button>
         </div>
     );
 }

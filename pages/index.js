@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Footer} from '/components/footer'
-import { Links } from 'components/links'
+import { Links }from 'components/links'
 import { Headline } from 'components/headline'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Headline title="Index Page!!"/>
+        <Headline page="Index Page!!" number ={1111} array={[1,2,3]}
+        obj={{foo: "foo", bar: "bar"}}
+        boolean={true}
+        code={<div>  <code className={styles.code}>pages/index.js</code> </div>}
+        onClick={() => alert("クリック")}
+        />
         <div className={styles.center}>say oorchlson index</div>
       <Links></Links>
       </main>
