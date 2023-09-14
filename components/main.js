@@ -3,7 +3,6 @@ import styles from '@/styles/Home.module.css'
 import { Links }from 'components/links'
 import { Headline } from 'components/headline'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export  function Main(props) {
   return (
