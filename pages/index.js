@@ -18,11 +18,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Headline page="Index Page!!" number ={1111} array={[1,2,3]}
-        obj={{foo: "foo", bar: "bar"}}
-        boolean={true}
+        <Headline
         >
-          
+           <code className={styles.code}>pages/index.js</code>
         </Headline>
         <div className={styles.center}>say oorchlson index</div>
       <Links></Links>
