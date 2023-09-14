@@ -1,5 +1,5 @@
-import styles from "../styles/Home.module.css";
-
+import styles from '@/styles/Home.module.css';
+import { Links }from '/components/Links';
 export  function Links() {
     return (
         <div className={styles.grid}>

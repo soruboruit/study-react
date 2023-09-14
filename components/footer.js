@@ -1,4 +1,5 @@
-import styles from "../styles/Home.module.css";
+import styles from '@/styles/Home.module.css';
+import { Footer} from '/components/Footer';
 import Image from "next/image"; // Image コンポーネントをインポート
 
 export function Footer() {
