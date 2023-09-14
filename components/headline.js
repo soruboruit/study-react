@@ -6,9 +6,8 @@ export  function Headline(props) {
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
-            {props.code}
+            {props.children}
           </p>
-          <button onClick={props.onClick}>ボタン</button>
         </div>
     );
 }
