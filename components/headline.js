@@ -1,5 +1,5 @@
-import styles from '@/styles/Home.module.css';
-import { Headline } from '/components/Headline';
+import styles from "../styles/Home.module.css"
+
 export  function Headline(props) {
     return (
         <div className={styles.description}>
