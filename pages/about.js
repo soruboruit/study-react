@@ -20,6 +20,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Headline page="About Page"
         >
+           <code className={styles.code}>pages/about.js</code>
         </Headline>
         <div className={styles.center}>say oorcholson about </div>
       <Links></Links>
