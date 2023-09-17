@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className={StyleSheet.container}>
+    <div className={Home.container}>
       <Head>
         <title>Index Page</title>
         <link rel="icon" href="/favicon.ico" />
