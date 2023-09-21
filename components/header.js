@@ -1,11 +1,13 @@
-import classes from "./footer.module.css";
-import Image from "next/image"; // Image コンポーネントをインポート
+import Link from "next/link";
+import classes from "./header.module.css";
 
 export function Header() {
-    return (
-       <footer >
-
-        
-        </footer>
-    );
+  return (
+    <header className={classes.header}>
+      <Link href="/" className={classes.ancher}>
+        Index
+      </Link>
+      <Link href="/about"> About</Link>
+    </header>
+  );
 }
