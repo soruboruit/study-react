@@ -32,7 +32,7 @@ export function Links() {
     <div className={classes.grid}>
       {ITEMS.map((item) => {
         return (
-          <a href={item.href} className={classes.card}>
+          <a key={item.href} href={item.href} className={classes.card}>
             <h2 className="{classes.title}">{item.title}</h2>
             <p className={classes.description}>{item.description}</p>
           </a>
