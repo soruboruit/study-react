@@ -1,21 +1,18 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import { Footer } from "components/footer";
 import { Main } from "components/main";
 import { Header } from "components/header";
-
-const inter = Inter({ subsets: ["latin"] });
+import styles from '../styles/Home.module.css'; // 追加
 
 export default function Home() {
   return (
-    <div className={Home.container}>
+    <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Main page="about"></Main>
-
+      <Main page="about" />
       <Footer />
     </div>
   );
