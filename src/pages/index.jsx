@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import { Footer } from '@/components/footer/index.jsx';
-import { Main } from '@/components/main';
-import { Header } from '@/components/header';
+import { Footer } from 'src/components/footer/index.jsx';
+import { Main } from 'src/components/main';
+import { Header } from 'src/components/header';
 import styles from '../styles/Home.module.css'; // 追加
 
 export default function Home() {
