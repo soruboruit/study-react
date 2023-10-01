@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import { Footer } from 'src/components/footer/index.jsx';
-import { Main } from 'src/components/main';
-import { Header } from 'src/components/header';
-import styles from '../styles/Home.module.css'; // 追加
+import Head from "next/head";
+import { Footer } from "src/components/footer/index.jsx";
+import { Main } from "src/components/main";
+import { Header } from "src/components/header";
+import styles from "../styles/Home.module.css"; // 追加
 
 export default function Home() {
   return (
@@ -11,6 +11,13 @@ export default function Home() {
         <title>Index Page</title>
       </Head>
       <Header />
+      <a
+        onClick={function () {
+          alert(123);
+        }}
+      >
+        ボタン
+      </a>
       <Main page="index" />
       <Footer />
     </div>
