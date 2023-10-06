@@ -24,4 +24,5 @@ export default function Home() {
   );
 }
 
-//youtube動画で学んだ
+//youtube動画で学んだ　
+// テスト勉強で忙しい　ぴぇん　youtube動画で学んでいる　
